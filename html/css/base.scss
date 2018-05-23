@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+//
+// base.css
+// last modified:
+//
+
+/*common--------------------*/
+
+* {
+	max-height:99999px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+//
+.clearfix {
+	*zoom: 1;
+}
+.clearfix:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+body {
+	// background-color: #FBF0E1;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin: 0;
+}
+
+a {
+	&:hover, &:link, &:visited {
+		// color: black;
+		// text-decoration: none;
+	}
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
